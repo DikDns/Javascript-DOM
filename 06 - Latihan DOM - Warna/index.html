@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+    <title>DOM - Latihan 1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-shadow: 1px 2px 0px black;
+        }
+        
+        .section {
+            margin: 0 0 64px 0;
+        }
+
+        .button {
+           margin: 0 4px;
+        }
+
+        .box {
+            margin: 10px auto;
+            width: 25px;
+            height: 25px;
+            box-shadow: 0px 0px 4px 2px slategrey;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .green {
+            background-color: green;
+        }
+        
+        .blue {
+            background-color: blue;
+        }
+
+        /* Classes Manipulation */
+        .brown {
+            background-color: brown;
+        }
+
+        .lime {
+            background-color:lime;
+        }
+
+        .coral {
+            background-color: coral;
+        }
+
+        .cyan {
+            background-color: cyan;
+        }
+
+        .silver {
+            background-color: silver;
+        }
+
+        .slategrey {
+            background-color: slategrey;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="judul">Bermain dengan Warna</h1>
+    <main class="main" id="main">
+        <section class="section-button section">
+            
+        </section>
+        <section class="section-slider section">
+        <div class="box red"></div>
+        <input type="range" name="sliderRed" min="0" max="255">
+        <div class="box green"></div>
+        <input type="range" name="sliderGreen" min="0" max="255">
+        <div class="box blue"></div>
+        <input type="range" name="sliderBlue" min="0" max="255">
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

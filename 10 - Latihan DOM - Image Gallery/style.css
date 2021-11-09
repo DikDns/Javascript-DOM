@@ -1,0 +1,39 @@
+.container {
+    width: 450px;
+    padding: 16px 0;
+    margin: 15px auto;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-jumbo {
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    object-fit: cover;
+    object-position: 0 -25px;
+}
+
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.img-thumb {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 0 0%;
+    padding: 2px;
+    box-sizing: border-box;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+
+.img-thumb:hover {
+    opacity: .5;
+}
